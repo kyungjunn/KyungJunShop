@@ -23,6 +23,6 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_SESSION_TOKEN: ${{ secrets.AWS_SESSION_TOKEN }}
-          AWS_REGION: 'ap-northeast-2' # 서울 리전 기준
+          AWS_REGION: 'us-east-1'
         run: |
-          aws s3 sync dist/ s3://본인의-s3-버킷-이름 --delete
+          aws s3 sync dist/ s3://mybucket-20263608 --delete
