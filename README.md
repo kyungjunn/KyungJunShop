@@ -30,6 +30,11 @@ AWS의 다양한 서비스를 활용하여 CI/CD 파이프라인을 구축하고
 
 ---
 
+## 🕶️ 유튜브 링크
+- https://youtu.be/KwayGxBCals
+
+---
+
 ## ⚙️ CI/CD 설정 (GitHub Actions)
 `.github/workflows/deploy.yml` 파일을 통해 `main` 브랜치에 코드가 `push`될 때마다 자동으로 배포되도록 설정하였습니다.
 
